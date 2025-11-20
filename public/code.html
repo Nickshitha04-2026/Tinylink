@@ -1,0 +1,30 @@
+<!-- public/code.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TinyLink - Stats</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header>
+    <h1>TinyLink - Stats</h1>
+  </header>
+  <main class="container">
+    <div id="content">
+      <div id="loading">Loading...</div>
+      <div id="notfound" style="display:none">Code not found.</div>
+      <div id="stats" style="display:none">
+        <h2 id="codeTitle"></h2>
+        <p><strong>Target:</strong> <a id="targetLink" href="#" target="_blank"></a></p>
+        <p><strong>Clicks:</strong> <span id="clicks"></span></p>
+        <p><strong>Created:</strong> <span id="created"></span></p>
+        <p><strong>Last clicked:</strong> <span id="last"></span></p>
+      </div>
+    </div>
+    <p><a href="/">Back to dashboard</a></p>
+    <script src="/assets/code.js"> </script>
+  </main>
+</body>
+</html>
